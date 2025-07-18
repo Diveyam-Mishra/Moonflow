@@ -8,6 +8,7 @@ import AIOfferingsSection from './components/Offering'; // Assuming this is your
 import FutureSection from './components/FutureSection'; // Import the new FutureSection component
 import Footer from './components/Footer';
 import Feedback from './components/Feedback';
+import Stats from './components/Stats';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
         <Header />
         <HeroSection />
         <AIOfferingsSection />
-        <FutureSection /> {/* Added the FutureSection component here */}
+        <FutureSection />
+        <Stats/> {/* Added the FutureSection component here */}
          <Feedback />
         <Footer />
       </div>
